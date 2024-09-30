@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="Fail-WithEmployeeNavigations\.suite\entities\Company.json" />
+    <Content Include="Fail-WithEmployeeNavigations\.suite\entities\CompanyVehicle.json" />
+    <Content Include="Fail-WithEmployeeNavigations\.suite\entities\Employee.json" />
+    <Content Include="Fail-WithEmployeeNavigations\.suite\entities\Site.json" />
+    <Content Include="Fail-WithEmployeeNavigations\.suite\entities\Vehicle.json" />
+    <Content Include="Fail-WithEmployeeNavigations\.suite\module-entity-extension.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\entities\Company.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\entities\CompanyVehicle.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\entities\Employee.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\entities\Site.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\entities\Vehicle.json" />
+    <Content Include="WorkingWithoutNavigations\.suite\module-entity-extension.json" />
+  </ItemGroup>
+
+</Project>
